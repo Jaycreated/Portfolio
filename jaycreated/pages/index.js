@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import { useState, useEffect } from "react";
 import { Inter } from 'next/font/google'
 import Home from '../pages/home'
 

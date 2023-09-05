@@ -1,11 +1,15 @@
+import React from 'react';
+//import {FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
+
 const Footer = () => {
     return (
-        <>
-            <div>
-                Footer
+        <div className='mt-8'>
+            <div className='text-center mt-4 border-t-2 p-6'>
+                <p>Copyright © 2022 JOHNSON JOHN. All rights Reserved.</p>
             </div>
-        </>
-    )
-}
 
-export default Footer
+        </div>
+    );
+};
+
+export default Footer;

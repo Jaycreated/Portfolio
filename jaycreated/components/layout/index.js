@@ -6,7 +6,7 @@ const Index = ({children}) => {
         <>
             <div>
                 <Navbar />
-                <div>
+                <div className="md:mx-64 mx-2">
                     {children}
                 </div>
                 <Footer />
