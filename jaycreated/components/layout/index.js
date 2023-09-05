@@ -1,8 +1,15 @@
+import Navbar from "../layout/Navbar";
+import Footer from "../layout/Footer";
+
 const Index = ({children}) => {
     return (
         <>
             <div>
-                {children}
+                <Navbar />
+                <div>
+                    {children}
+                </div>
+                <Footer />
             </div>
         </>
     )
